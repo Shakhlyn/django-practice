@@ -6,4 +6,15 @@
 
 {% block content %}
     <h1>This is the home page of the First app</h1>
+    {% for book in books %}
+    	<div>{{ book.title }}</div>
+        <div>{{ book.author }}</div>
+        <a href="{% url "book_detail" book.id %}">
+        <button>{{ book.id }}</button>
+        </a>
+        <br />
+        <br />
+
+    {% endfor %}
+    
 {% endblock %}
