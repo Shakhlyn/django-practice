@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+        	Title
+        {% endblock %}
+    </title>
+</head>
+<body>
+    <header>
+        This is the header
+    </header>
+    {% block content %}
+        Main content
+    {% endblock %}
+</body>
+<footer>
+    <p>This is the footer</p>
+</footer>
+</html>

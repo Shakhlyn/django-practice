@@ -1,0 +1,47 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+
+# Local Django migrations
+**/migrations/**
+
+# Database files
+db.sqlite3
+
+# Media files (optional, if stored locally)
+media/
+
+# Static files (optional, if using collectstatic for production)
+staticfiles/
+static/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# macOS files
+.DS_Store
+
+# PyCharm files
+*.idea/
